@@ -1,0 +1,12 @@
+// This is done by passing an argument inside a function(result)
+
+// The global variable
+let fixedValue = 4;
+
+// result is passed as an argument
+function incrementer(result) {
+result = fixedValue + 1;
+
+return result
+  
+}
