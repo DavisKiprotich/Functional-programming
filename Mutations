@@ -1,0 +1,8 @@
+let fixedValue = 4;
+
+function incrementer() {
+  // Code below increases the value by 1 but does not change its value
+
+return fixedValue + 1
+  
+}
