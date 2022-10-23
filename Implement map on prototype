@@ -7,7 +7,7 @@ Array.prototype.myMap = function(callback) {
   const newArray = [];
   // Only change code below this line
 for(let i = 0;i < this.length; i++){
-  newArray.push(callback(this[i]))
+  newArray.push(callback(this[i]))  // We passed the callback function for each indivudual element
 }
 
   return newArray;
