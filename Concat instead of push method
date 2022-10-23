@@ -1,0 +1,9 @@
+function nonMutatingPush(original, newItem) {
+  // concat adds items to end of original array without any mutation
+  let newArr = original.concat(newItem);
+  return newArr
+}
+
+const first = [1, 2, 3];
+const second = [4, 5];
+nonMutatingPush(first, second);
