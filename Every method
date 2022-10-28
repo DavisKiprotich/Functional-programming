@@ -1,0 +1,12 @@
+function checkPositive(arr) {
+  // Only change code below this line
+let result =arr.every(value => {
+  if(value > 0){
+    return true
+  }
+})
+return result
+
+}
+
+checkPositive([1, 2, 3, -4, 5]);
