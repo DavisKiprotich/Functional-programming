@@ -1,0 +1,10 @@
+function urlSlug(title) {
+let result = title.slice().toLowerCase().split(" ").filter(word => {
+  if(word != ""){
+    return word
+  }
+}).join("-")
+
+return result
+}
+console.log(urlSlug("Winter Is Coming"));
