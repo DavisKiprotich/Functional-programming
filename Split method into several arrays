@@ -1,0 +1,6 @@
+function splitify(str) {
+  //  We apply regular expressions
+return str.split(/\W/)
+}
+
+console.log(splitify("Hello World,I-am code"));
